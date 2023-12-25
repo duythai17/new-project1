@@ -1,0 +1,81 @@
+/* Apply an animated gradient background with multiple color stops */
+.app-container {
+  display: flex;
+}
+
+.container-left {
+  width: 600px; /* Kích thước cố định cho container-left */
+  padding: 20px;
+  margin-right: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  text-align: center;
+  color: #5c0404;
+  overflow: hidden;
+}
+
+.container-right {
+  width: 600px; /* Kích thước cố định cho container-right */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  text-align: center;
+  color: #01393a;
+  overflow: hidden;
+}
+
+/* Other existing styles remain unchanged */
+.container-left h1,
+.container-right h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Animation for the gradient background */
+.container-left {
+  background: linear-gradient(45deg, #26b55a, #3498db, #9b59b6, #e74c3c, #f39c12, #2ecc71);
+  background-size: 600% 600%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+.container-right {
+  background: linear-gradient(45deg, #aeebed, #0b91ea, #6a35df, #dd3ecd, #f241ae, #ee0f16);
+  background-size: 600% 600%;
+  animation: gradientAnimation 10s ease infinite;
+}
+@keyframes gradientAnimation {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  16.66% {
+    background-position: 100% 50%;
+  }
+  33.33% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  66.66% {
+    background-position: 0% 50%;
+  }
+  83.33% {
+    background-position: 100% 50%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}

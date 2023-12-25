@@ -1,0 +1,34 @@
+/* MongoDataComponent.css */
+
+.my-data-container {
+    text-align: center;
+    margin-top: 0px; /* Adjust the margin as needed */
+    color: rgb(0, 0, 0);
+}
+  
+.my-data-title {
+    font-size: 30px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: rgb(71, 0, 0);
+}
+  
+.my-value {
+    font-size: 30px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+  
+.no-data-message {
+    font-size: 30px; /* Adjust the font size as needed */
+}
+  
+.my-list {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.my-list-item {
+    text-align: left;
+    margin-bottom: 10px; /* Tùy chọn: Thêm khoảng cách giữa các mục trong danh sách */
+    margin-left: 80px; /* Thêm lề phải là 30px */
+}

@@ -1,0 +1,43 @@
+/* MongoDataComponent.css */
+
+.weight-data-container {
+  text-align: center;
+  margin-top: 0px; /* Adjust the margin as needed */
+  color: rgb(0, 0, 0);
+}
+
+.weight-data-title {
+  font-size: 30px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: rgb(71, 0, 0);
+}
+
+.weight-value {
+  font-size: 30px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.no-data-message {
+  font-size: 30px; /* Adjust the font size as needed */
+}
+/* MongoDataComponent.css */
+
+.setpoint-data-container {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+  color: rgb(0, 0, 0);
+}
+
+.setpoint-data-title {
+  font-size: 30px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: rgb(71, 0, 0);
+}
+
+.setpoint-value {
+  font-size: 30px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
